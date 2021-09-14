@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+<body>
+    <div>
+        <input type="checkbox" id="nav-toggle">
+        <div class="sidebar">
+            <div class="logo">
+                <h2> <i class="fas fa-heart"></i> <span>Accusoft</span></h2>
+            </div>
+
+            <div class="sidebar-menu">
+                <ul class="menu-list">
+                    <li class="list-item"><a href="#" class="active"><i class="fas fa-users"></i><span>   Customer </span></a></li>
+                    <li class="list-item"><a href="#"><i class="fas fa-users"></i><span>   Projects </span></a></li>
+                    <li class="list-item"><a href="#"><i class="fas fa-users"></i><span>   Orders </span></a></li>
+                    <li class="list-item"><a href="#"><i class="fas fa-users"></i><span>   Inventory </span></a></li>
+                    <li class="list-item"><a href="#"><i class="fas fa-users"></i><span>   Accounts </span></a></li>
+                    <li class="list-item"><a href="#"><i class="fas fa-users"></i><span>   Tasks </span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-content">
+            <header>
+                <div class="col1">
+                    <label for="nav-toggle"><i class="fas fa-bars" id="menu-bar"></i></label>
+                    <span class="heading">Dashboard</span>
+                </div>
+                <div class="search-wrapper">
+                    <input class="search" type="search" id="searchItem" placeholder="Search here...">
+                    <label for="searchItem" class="fas fa-search"></label>
+                </div>
+                <div class="user-info">
+                    <img src="https://yt3.ggpht.com/yti/APfAmoGNb6SInyT5oNTQTWYQwToy3_Hw5B6h_4z0mw=s88-c-k-c0x00ffffff-no-rj-mo" alt="user image">
+                    <div class="user">
+                        <h5>John Doe</h5>
+                        <p>Super admin</p>
+                    </div>
+                </div>
+            </header>
+
+            <main>
+                <div class="cards">
+                    <div class="card">
+                        <div>
+                            <h3 class="number">54</h3>
+                            <p>Customers</p>
+                        </div>
+                        <div>
+                            <h3><i class="fas fa-users"></i></h3>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <h3 class="number">54</h3>
+                            <p>Projects</p>
+                        </div>
+                        <div>
+                            <i class="fas fa-file"></i>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <h3 class="number">54</h3>
+                            <p>Customers</p>
+                        </div>
+                        <div>
+                            <i class="fas fa-shopping-bag"></i>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <h3 class="number">$610</h3>
+                            <p>Income</p>
+                        </div>
+                        <div>
+                            <i class="fas fa-wifi"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- tables -->
+                <section class="section-two">
+                    <div class="projects">
+                        <div class="card">
+                            <div class="card-head">
+                                <h3>Recent Projects</h3>
+                                <button>See all <i class="fas fa-arrow-right"></i></button>
+                            </div>
+                            <div class="card-body">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Project Title</th>
+                                            <th>Department</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Kayar</td>
+                                            <td>Software Dev</td>
+                                            <td> <span class="dot"> . </span> In Progress</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Kayar</td>
+                                            <td>Software Dev</td>
+                                            <td>In Progress</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Kayar</td>
+                                            <td>Software Dev</td>
+                                            <td>In Progress</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="customer">
+                        <div class="card">
+                            <div class="card-head">
+                                <h3>New Customers</h3>
+                                <button>See all <i class="fas fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="user-info">
+                                <img src="https://yt3.ggpht.com/yti/APfAmoGNb6SInyT5oNTQTWYQwToy3_Hw5B6h_4z0mw=s88-c-k-c0x00ffffff-no-rj-mo" alt="user image">
+                                <div class="user">
+                                    <h5>John Doe</h5>
+                                    <small>Super admin</small>
+                                </div>
+                            </div>
+                            <div class="icons">
+                                <a href="#"><i class="fas fa-user"></i></a>
+                                <a href="#"><i class="fas fa-heart"></i></a>
+                                <a href="#"><i class="fas fa-phone"></i></a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="user-info">
+                                <img src="https://yt3.ggpht.com/yti/APfAmoGNb6SInyT5oNTQTWYQwToy3_Hw5B6h_4z0mw=s88-c-k-c0x00ffffff-no-rj-mo" alt="user image">
+                                <div class="user">
+                                    <h5>John Doe</h5>
+                                    <small>Super admin</small>
+                                </div>
+                            </div>
+                            <div class="icons">
+                                <a href="#"><i class="fas fa-user"></i></a>
+                                <a href="#"><i class="fas fa-heart"></i></a>
+                                <a href="#"><i class="fas fa-phone"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
